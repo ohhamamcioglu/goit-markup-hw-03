@@ -115,18 +115,10 @@ body {
   gap: 24px;
 }
 .li-sectiontwo {
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+  display: none;
 }
 .title-sectiontwo {
   font-weight: 500;
@@ -202,6 +194,8 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.section-four .li-divfour{
   margin-bottom: 8px;
 }
 .title-four {
