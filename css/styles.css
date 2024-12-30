@@ -1,31 +1,28 @@
-img{
+img {
   display: block;
 }
 
 body {
-  
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-
 }
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.box-one{
+.box-one {
   display: flex;
 }
-.nav-barone{
+.nav-barone {
   display: flex;
   align-items: center;
-
 }
-.logo{
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -34,16 +31,13 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-
 }
-.logo-style{
+.logo-style {
   color: #2e2f42;
-
 }
-.ul-one{
+.ul-one {
   display: flex;
   gap: 40px;
-
 }
 .nav-bar {
   font-weight: 500;
@@ -59,35 +53,35 @@ body {
 .nav-bar:focus {
   color: #404bbf;
 }
-.ul-adress{
+.ul-adress {
   display: flex;
   gap: 40px;
 }
 .address {
   font-style: normal;
 }
-.adress-a{
+.adress-a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;  
+  color: #434455;
 }
-.adress-a:hover{
+.adress-a:hover {
   color: #404bbf;
 }
-.adress-a:focus{
+.adress-a:focus {
   color: #404bbf;
 }
-.section-one{
+.section-one {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.title{
+.title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;  
+  color: #ffffff;
   max-width: 496px;
 }
 .button {
@@ -97,7 +91,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff ;
+  color: #ffffff;
   cursor: pointer;
   display: block;
   margin: 0 auto;
@@ -106,25 +100,33 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-
 }
 .button:hover {
   background-color: #404bbf;
 }
 .button:focus {
   background-color: #404bbf;
-}  
-.section-two{
+}
+.section-two {
   padding: 120px 0;
 }
-.ul-two{
+.ul-two {
   display: flex;
   gap: 24px;
-
 }
-.li-sectiontwo{
-  width: calc((100%-72px)/4);
-
+.li-sectiontwo {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
 }
 .title-sectiontwo {
   font-weight: 500;
@@ -133,22 +135,19 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
 }
 
-.section-three{
+.section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
-
 }
-.title-sectionthree{
+.title-sectionthree {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -157,21 +156,21 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.ul-three{
+.ul-three {
   display: flex;
   gap: 24px;
 }
 
-.team{
+.team {
   background-color: #ffffff;
-  width: calc((100%-72px)/4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.li-div{
+.li-div {
   padding: 32px 0;
 }
 
-.title-three{
+.title-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -179,34 +178,33 @@ body {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-
 }
-.text-three{
+.text-three {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
 }
-.section-four{
+.section-four {
   padding: 120px 0;
 }
-.ul-four{
+.ul-four {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.li-four{
-  width: calc((100%-72px)/4);
+.li-four {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.li-divfour{
+.li-divfour {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
-.title-four{
+.title-four {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -228,22 +226,20 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer{
+.footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-text{
+.footer-text {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-
 }
-.footer .logo{
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
-
 }
 .footer .logo-span {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
